@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int sum(int a,int b);
+int main(){
+  //int f=12,g=12;
+ int d = sum(12,12);
+  cout<<d;
+}
+int sum(int a,int b){
+  return a*b;
+}
